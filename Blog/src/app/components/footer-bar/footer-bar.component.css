@@ -1,0 +1,41 @@
+.container
+{
+  background-color:#26272b;
+  padding:20px 0 20px;
+  font-size:15px;
+}
+
+
+
+.container a
+{
+  color:#737373;
+}
+.container a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .container [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .container
+  {
+    padding-bottom:0
+  }
+  .container .copyright-text
+  {
+    text-align:center
+  }
+}

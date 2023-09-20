@@ -3,3 +3,10 @@ header{
     justify-content: center;
     margin-top: 15px;
 }
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;    
+}
