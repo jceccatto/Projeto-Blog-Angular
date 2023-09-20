@@ -1,21 +1,21 @@
-.container__articles{
-    margin-top: 40px;
+.loadmorecontent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
-.content__more-content a{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.loadmorecontent a{
     border-radius: 5px;
     background-color: lightgrey;
     color: black;
+    margin-bottom: 20px;
     padding: 2px;
 }
 
-.content__more-content a:hover{
+.loadmorecontent a:hover{
     color: white;
     background-color: cornflowerblue;    
 }
+

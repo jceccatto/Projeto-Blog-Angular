@@ -3,6 +3,10 @@
     margin-bottom: 15px;
     width: 700px;
 }
+
+.container__small-card a:hover{
+    color: cornflowerblue;
+}
 .container__small-card-content{
     display: flex;
     flex-direction: row;
